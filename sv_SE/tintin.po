@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-09 15:12+0000\n"
+"PO-Revision-Date: 2026-11-14 22:26+0000\n"
 "Last-Translator: Martin <martin@norlin.at>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
@@ -535,11 +535,11 @@ msgstr "Hörde inte. Försök igen."
 
 #: pebble/applib/voice/voice_window.c:683
 msgid "Retrying"
-msgstr ""
+msgstr "Försöker igen"
 
 #: pebble/applib/voice/voice_window.c:686
 msgid "Retrying offline"
-msgstr ""
+msgstr "Försöker igen offline"
 
 #: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
@@ -2318,10 +2318,8 @@ msgid "Rain & Snow"
 msgstr "Snöblandat regn"
 
 #: pebble/apps/system/weather/weather.c:130
-#, fuzzy
-#| msgid "Clear All"
 msgid "Clear"
-msgstr "Rensa allt"
+msgstr "Rensa"
 
 #: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
@@ -3362,6 +3360,8 @@ msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
 "try heading to bed earlier tonight."
 msgstr ""
+"Det blev en kort natt. Du sov i %dt %dm, majoriteten av vuxna behöver minst "
+"7 timmars sömn, så försök komma i säng lite tidigare ikväll."
 
 #: pebble/services/activity/activity_insights.c:1469
 #, c-format
@@ -3369,6 +3369,8 @@ msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
 "tonight 😉"
 msgstr ""
+"Du sov i %dt %dm. En god natts sömn är viktigt, försök få lite mer sömn "
+"inatt 🙂"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
 #: pebble/services/activity/activity_insights.c:1477
@@ -3376,18 +3378,15 @@ msgstr ""
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
 msgstr ""
+"Du sov i %dt %dm. Du är nära en ordentlig natt sömn, försök komma i säng "
+"lite tidigare ikväll."
 
 #: pebble/services/activity/activity_insights.c:1479
-#, fuzzy, c-format
-#| msgid ""
-#| "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
-#| "you're doing 😃."
+#, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
 "feel your best."
-msgstr ""
-"God morgon! Du sov i %dt %dm. Regelbundenhet är nyckeln till att lyckas, "
-"fortsätt så 😃."
+msgstr "God morgon! Du sov i %dt %dm. Lite mer sömn och du kommer må toppen."
 
 #. / Sleep notification on wake up, slept 9 to 10 hours
 #: pebble/services/activity/activity_insights.c:1487
@@ -3396,6 +3395,8 @@ msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
 "a steady routine is what counts."
 msgstr ""
+"Du sov i %dt %dm. En lång natts sömn kan hjälpa dig ta ikapp lite sömnbrist. "
+"Det viktiga är att hålla en god rutin."
 
 #: pebble/services/activity/activity_insights.c:1489
 #, c-format
@@ -3403,6 +3404,8 @@ msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
 "adults do best with 7 to 9 hours."
 msgstr ""
+"Har du sovit gott? Du sov i %dt %dm. Lite extra sömn kan behövas ibland, men "
+"de flesta vuxna mår bäst av 7 till 9 timmars sömn."
 
 #: pebble/services/activity/activity_insights.c:1498
 #, c-format
@@ -3410,6 +3413,8 @@ msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
 "regular bedtime and wake time will help you feel your best."
 msgstr ""
+"Du sov i %dt %dm. Det var en lååång natt. Bra för återhämtning, men en "
+"regelbunden dygnsrytm kan hjälpa dig att må bättre."
 
 #: pebble/services/activity/activity_insights.c:1501
 #, c-format
@@ -3417,6 +3422,8 @@ msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
 "is fine; try to keep a steady routine."
 msgstr ""
+"Du sov i %dt %dm, vilket är mer än de flesta vuxna behöver. Att sova länge "
+"då och då kan vara bra för återhämtning, men försök hålla en bra dygnsrytm."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: pebble/services/activity/activity_insights.c:1512
