@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-12 00:52+0000\n"
+"PO-Revision-Date: 2026-11-16 00:26+0000\n"
 "Last-Translator: おーの <nobb.hero@gmail.com>\n"
 "Language-Team: Japanese <https://translate.repebble.com/projects/pebbleos/"
 "watch/ja/>\n"
@@ -539,7 +539,7 @@ msgstr "再試行中"
 
 #: pebble/applib/voice/voice_window.c:686
 msgid "Retrying offline"
-msgstr ""
+msgstr "オフラインで再試行中"
 
 #: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
