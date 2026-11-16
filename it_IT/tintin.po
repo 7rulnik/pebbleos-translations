@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 25.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
-"PO-Revision-Date: 2026-11-09 12:26+0000\n"
+"PO-Revision-Date: 2026-11-16 12:46+0000\n"
 "Last-Translator: \"miky.deirossi\" <miky.deirossi@gmail.com>\n"
 "Language-Team: Italian <https://translate.repebble.com/projects/pebbleos/"
 "watch/it/>\n"
@@ -534,11 +534,11 @@ msgstr "Non rilevato! Riprova."
 
 #: pebble/applib/voice/voice_window.c:683
 msgid "Retrying"
-msgstr ""
+msgstr "Riprovo..."
 
 #: pebble/applib/voice/voice_window.c:686
 msgid "Retrying offline"
-msgstr ""
+msgstr "Riprovo offline..."
 
 #: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
@@ -2316,10 +2316,8 @@ msgid "Rain & Snow"
 msgstr "Pioggia e neve"
 
 #: pebble/apps/system/weather/weather.c:130
-#, fuzzy
-#| msgid "Clear All"
 msgid "Clear"
-msgstr "Cancella tutto"
+msgstr "Cancella"
 
 #: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
