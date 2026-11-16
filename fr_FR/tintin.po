@@ -229,13 +229,13 @@ msgstr "%I:%M:%S %p"
 
 #: pebble/applib/pbl_std/timelocal.c:64
 #: pebble/applib/ui/date_time_selection_window_private.c:74
-#: pebble/apps/system/weather/expanded_view.c:94
+#: pebble/apps/system/weather/expanded_view.c:95
 msgid "AM"
 msgstr "AM"
 
 #: pebble/applib/pbl_std/timelocal.c:65
 #: pebble/applib/ui/date_time_selection_window_private.c:76
-#: pebble/apps/system/weather/expanded_view.c:94
+#: pebble/apps/system/weather/expanded_view.c:95
 msgid "PM"
 msgstr "PM"
 
@@ -578,7 +578,7 @@ msgid "Update Failed"
 msgstr "Échec de la mise à jour"
 
 #: pebble/apps/core/progress_ui.c:175
-#: pebble/apps/system/settings/factory_reset.c:59
+#: pebble/apps/system/settings/factory_reset.c:60
 msgid "Resetting..."
 msgstr "Réinitialisation..."
 
@@ -769,7 +769,7 @@ msgstr "CALORIES"
 
 #. / Distance Label
 #: pebble/apps/system/health/activity_detail_card.c:90
-#: pebble/apps/system/workout/active.c:193
+#: pebble/apps/system/workout/active.c:194
 msgid "DISTANCE"
 msgstr "DISTANCE"
 
@@ -866,7 +866,7 @@ msgid "TIME IN ZONES"
 msgstr "TEMPS EN ZONES"
 
 #: pebble/apps/system/health/hr_summary_card.c:135
-#: pebble/apps/system/workout/active.c:1114
+#: pebble/apps/system/workout/active.c:1115
 msgid "BPM"
 msgstr "BPM"
 
@@ -919,7 +919,7 @@ msgstr "%i° - %s "
 msgid "%i°"
 msgstr "%i°"
 
-#: pebble/apps/system/music.c:909
+#: pebble/apps/system/music.c:924
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
@@ -928,7 +928,7 @@ msgstr ""
 "LA LECTURE\n"
 "SUR LE MOBILE"
 
-#: pebble/apps/system/music.c:1860
+#: pebble/apps/system/music.c:1888
 msgid "Music"
 msgstr "Musique"
 
@@ -1402,7 +1402,7 @@ msgstr "Apps anciennes"
 msgid "Display"
 msgstr "Affichage"
 
-#: pebble/apps/system/settings/factory_reset.c:112
+#: pebble/apps/system/settings/factory_reset.c:116
 msgid "Perform factory reset?"
 msgstr "Réinitialiser ?"
 
@@ -2062,7 +2062,7 @@ msgstr ""
 "démarrer."
 
 #: pebble/apps/system/settings/timeline.c:297
-#: pebble/apps/system/timeline/timeline.c:1313
+#: pebble/apps/system/timeline/timeline.c:1315
 msgid "Timeline"
 msgstr "Timeline"
 
@@ -2086,17 +2086,17 @@ msgstr "Sons et haptique"
 msgid "Vibrations"
 msgstr "Vibrations"
 
-#: pebble/apps/system/timeline/timeline.c:909
+#: pebble/apps/system/timeline/timeline.c:911
 msgid "No events"
 msgstr "Rien à signaler"
 
-#: pebble/apps/system/timeline/timeline.c:1285
+#: pebble/apps/system/timeline/timeline.c:1287
 msgid "Timeline Future"
 msgstr "Timeline future"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
-#: pebble/apps/system/timeline/timeline.c:1300
+#: pebble/apps/system/timeline/timeline.c:1302
 msgid "Timeline Past"
 msgstr "Timeline: Passé"
 
@@ -2223,64 +2223,64 @@ msgstr "Sélectionné"
 msgid "Watchfaces"
 msgstr "Cadrans"
 
-#: pebble/apps/system/weather/expanded_view.c:113
+#: pebble/apps/system/weather/expanded_view.c:114
 msgid "Sunset --:--"
 msgstr "Coucher --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:116
+#: pebble/apps/system/weather/expanded_view.c:117
 #, c-format
 msgid "Sunset %s"
 msgstr "Coucher %s"
 
-#: pebble/apps/system/weather/expanded_view.c:141
+#: pebble/apps/system/weather/expanded_view.c:142
 msgid "Last updated --:--"
 msgstr "Mis à jour --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:144
+#: pebble/apps/system/weather/expanded_view.c:145
 #, c-format
 msgid "Last updated %s"
 msgstr "Mis à jour %s"
 
-#: pebble/apps/system/weather/expanded_view.c:330
+#: pebble/apps/system/weather/expanded_view.c:331
 msgid "PRECIPITATION: --"
 msgstr "PRÉCIPITATIONS : --"
 
-#: pebble/apps/system/weather/expanded_view.c:332
+#: pebble/apps/system/weather/expanded_view.c:333
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr "PRÉCIPITATIONS : %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:416
+#: pebble/apps/system/weather/expanded_view.c:417
 msgid "CURRENT UV"
 msgstr "UV ACTUEL"
 
-#: pebble/apps/system/weather/expanded_view.c:425
+#: pebble/apps/system/weather/expanded_view.c:426
 #, c-format
 msgid "UV %d"
 msgstr "UV %d"
 
-#: pebble/apps/system/weather/expanded_view.c:427
+#: pebble/apps/system/weather/expanded_view.c:428
 msgid "UV --"
 msgstr "UV --"
 
-#: pebble/apps/system/weather/expanded_view.c:429
+#: pebble/apps/system/weather/expanded_view.c:430
 #, c-format
 msgid "RAIN %d%%"
 msgstr "PLUIE %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:431
+#: pebble/apps/system/weather/expanded_view.c:432
 msgid "RAIN --"
 msgstr "PLUIE --"
 
-#: pebble/apps/system/weather/expanded_view.c:439
+#: pebble/apps/system/weather/expanded_view.c:440
 msgid "UV"
 msgstr "UV"
 
-#: pebble/apps/system/weather/expanded_view.c:441
+#: pebble/apps/system/weather/expanded_view.c:442
 msgid "RAIN"
 msgstr "PLUIE"
 
-#: pebble/apps/system/weather/forecast_list.c:1288
+#: pebble/apps/system/weather/forecast_list.c:1289
 msgid "WEATHER REPORT"
 msgstr "BULLETIN MÉTÉO"
 
@@ -2288,11 +2288,11 @@ msgstr "BULLETIN MÉTÉO"
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
 #. %-row->dot (~10-11px each; the graph auto-centres in its band, so the split
 #. holds for any temp spread).
-#: pebble/apps/system/weather/forecast_list.c:1609
+#: pebble/apps/system/weather/forecast_list.c:1610
 msgid "PRECIPITATION"
 msgstr "PRÉCIPITATIONS"
 
-#: pebble/apps/system/weather/forecast_list.c:2227
+#: pebble/apps/system/weather/forecast_list.c:2228
 #, no-c-format
 msgid "%a, %b %d"
 msgstr "%a %d %b"
@@ -2595,224 +2595,224 @@ msgid "UV INDEX"
 msgstr "INDICE UV"
 
 #. / Zone 1 HR Label
-#: pebble/apps/system/workout/active.c:136
+#: pebble/apps/system/workout/active.c:137
 msgid "FAT BURN"
 msgstr "MODÉRÉ"
 
 #. / Zone 2 HR Label
-#: pebble/apps/system/workout/active.c:139
+#: pebble/apps/system/workout/active.c:140
 msgid "ENDURANCE"
 msgstr "INTENSE"
 
 #. / Zone 3 HR Label
-#: pebble/apps/system/workout/active.c:142
+#: pebble/apps/system/workout/active.c:143
 msgid "PERFORMANCE"
 msgstr "VIGOUREUX"
 
 #. / Default/Zone 0 HR Label
-#: pebble/apps/system/workout/active.c:145
+#: pebble/apps/system/workout/active.c:146
 msgid "HEART RATE"
 msgstr "RYTHME"
 
 #. / Duration Label
-#: pebble/apps/system/workout/active.c:162
+#: pebble/apps/system/workout/active.c:163
 msgid "DURATION"
 msgstr "DURÉE"
 
 #. / Average Pace Label
-#: pebble/apps/system/workout/active.c:166
+#: pebble/apps/system/workout/active.c:167
 msgid "AVG PACE"
 msgstr "RYTHME MOY"
 
-#: pebble/apps/system/workout/active.c:170
+#: pebble/apps/system/workout/active.c:171
 msgid "AVG PACE (/MI)"
 msgstr "CADENCE MOY. (/MI)"
 
-#: pebble/apps/system/workout/active.c:170
+#: pebble/apps/system/workout/active.c:171
 msgid "AVG PACE (/KM)"
 msgstr "CADENCE MOY. (/KM)"
 
 #. / Pace Label
-#: pebble/apps/system/workout/active.c:175
+#: pebble/apps/system/workout/active.c:176
 msgid "PACE"
 msgstr "ALLURE"
 
 #. / Pace Label with units
-#: pebble/apps/system/workout/active.c:178
+#: pebble/apps/system/workout/active.c:179
 msgid "PACE (/MI)"
 msgstr "CADENCE (/MI)"
 
-#: pebble/apps/system/workout/active.c:179
+#: pebble/apps/system/workout/active.c:180
 msgid "PACE (/KM)"
 msgstr "CADENCE (/KM)"
 
 #. / Speed Label
-#: pebble/apps/system/workout/active.c:184
+#: pebble/apps/system/workout/active.c:185
 msgid "SPEED"
 msgstr "VITESSE"
 
 #. / Speed Label with units
-#: pebble/apps/system/workout/active.c:187
+#: pebble/apps/system/workout/active.c:188
 msgid "SPEED (MPH)"
 msgstr "VITESSE (MPH)"
 
-#: pebble/apps/system/workout/active.c:188
+#: pebble/apps/system/workout/active.c:189
 msgid "SPEED (KM/H)"
 msgstr "VITESSE (KM/H)"
 
 #. / Distance Label with units
-#: pebble/apps/system/workout/active.c:196
+#: pebble/apps/system/workout/active.c:197
 msgid "DISTANCE (MI)"
 msgstr "DISTANCE (MI)"
 
-#: pebble/apps/system/workout/active.c:197
+#: pebble/apps/system/workout/active.c:198
 msgid "DISTANCE (KM)"
 msgstr "DISTANCE (KM)"
 
 #. / Steps Label
-#: pebble/apps/system/workout/active.c:201
-#: pebble/apps/system/workout/active.c:1185
-#: pebble/apps/system/workout/active.c:1203
-#: pebble/apps/system/workout/active.c:1228
+#: pebble/apps/system/workout/active.c:202
+#: pebble/apps/system/workout/active.c:1186
+#: pebble/apps/system/workout/active.c:1204
+#: pebble/apps/system/workout/active.c:1229
 msgid "STEPS"
 msgstr "PAS"
 
-#: pebble/apps/system/workout/active.c:306
-#: pebble/apps/system/workout/active.c:363
+#: pebble/apps/system/workout/active.c:307
+#: pebble/apps/system/workout/active.c:364
 msgid "MI"
 msgstr "MI"
 
-#: pebble/apps/system/workout/active.c:306
-#: pebble/apps/system/workout/active.c:363
+#: pebble/apps/system/workout/active.c:307
+#: pebble/apps/system/workout/active.c:364
 msgid "KM"
 msgstr "KM"
 
-#: pebble/apps/system/workout/active.c:382
+#: pebble/apps/system/workout/active.c:383
 msgid "MPH"
 msgstr "MPH"
 
-#: pebble/apps/system/workout/active.c:382
+#: pebble/apps/system/workout/active.c:383
 msgid "KM/H"
 msgstr "KM/H"
 
-#: pebble/apps/system/workout/active.c:1053
+#: pebble/apps/system/workout/active.c:1054
 msgid "COMPLETE"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1056
+#: pebble/apps/system/workout/active.c:1057
 msgid "END WORKOUT?"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1060
+#: pebble/apps/system/workout/active.c:1061
 msgid "PAUSED"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1114
+#: pebble/apps/system/workout/active.c:1115
 #, fuzzy
 #| msgid "AVG "
 msgid "AVG"
 msgstr "MOY. "
 
-#: pebble/apps/system/workout/active.c:1117
-#: pebble/apps/system/workout/active.c:1269
+#: pebble/apps/system/workout/active.c:1118
+#: pebble/apps/system/workout/active.c:1270
 #, fuzzy, c-format
 #| msgid "%d"
 msgid "Z%d"
 msgstr "%d"
 
-#: pebble/apps/system/workout/active.c:1173
-#: pebble/apps/system/workout/active.c:1219
-#: pebble/apps/system/workout/active.c:1463
+#: pebble/apps/system/workout/active.c:1174
+#: pebble/apps/system/workout/active.c:1220
+#: pebble/apps/system/workout/active.c:1464
 #, fuzzy
 #| msgid "TOTAL"
 msgid "TOTAL TIME"
 msgstr "TOTAL"
 
-#: pebble/apps/system/workout/active.c:1173
-#: pebble/apps/system/workout/active.c:1219
+#: pebble/apps/system/workout/active.c:1174
+#: pebble/apps/system/workout/active.c:1220
 #, fuzzy
 #| msgid "TIMEOUT"
 msgid "TIMER"
 msgstr "TIMEOUT"
 
-#: pebble/apps/system/workout/active.c:1180
+#: pebble/apps/system/workout/active.c:1181
 #, fuzzy
 #| msgid "DISTANCE (MI)"
 msgid "DIST MI"
 msgstr "DISTANCE (MI)"
 
-#: pebble/apps/system/workout/active.c:1181
+#: pebble/apps/system/workout/active.c:1182
 #, fuzzy
 #| msgid "DISTANCE (KM)"
 msgid "DIST KM"
 msgstr "DISTANCE (KM)"
 
-#: pebble/apps/system/workout/active.c:1182
-#: pebble/apps/system/workout/active.c:1215
+#: pebble/apps/system/workout/active.c:1183
+#: pebble/apps/system/workout/active.c:1216
 #, fuzzy
 #| msgid "PACE (/MI)"
 msgid "PACE /MI"
 msgstr "CADENCE (/MI)"
 
-#: pebble/apps/system/workout/active.c:1183
-#: pebble/apps/system/workout/active.c:1216
+#: pebble/apps/system/workout/active.c:1184
+#: pebble/apps/system/workout/active.c:1217
 #, fuzzy
 #| msgid "PACE (/KM)"
 msgid "PACE /KM"
 msgstr "CADENCE (/KM)"
 
-#: pebble/apps/system/workout/active.c:1187
-#: pebble/apps/system/workout/active.c:1204
-#: pebble/apps/system/workout/active.c:1229
-#: pebble/apps/system/workout/active.c:1465
+#: pebble/apps/system/workout/active.c:1188
+#: pebble/apps/system/workout/active.c:1205
+#: pebble/apps/system/workout/active.c:1230
+#: pebble/apps/system/workout/active.c:1466
 msgid "KCAL"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1202
-#: pebble/apps/system/workout/active.c:1227
+#: pebble/apps/system/workout/active.c:1203
+#: pebble/apps/system/workout/active.c:1228
 msgid "CADENCE"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1213
+#: pebble/apps/system/workout/active.c:1214
 #, fuzzy
 #| msgid "SPEED (MPH)"
 msgid "SPEED MPH"
 msgstr "VITESSE (MPH)"
 
-#: pebble/apps/system/workout/active.c:1214
+#: pebble/apps/system/workout/active.c:1215
 #, fuzzy
 #| msgid "SPEED (KM/H)"
 msgid "SPEED KM/H"
 msgstr "VITESSE (KM/H)"
 
-#: pebble/apps/system/workout/active.c:1222
-#: pebble/apps/system/workout/active.c:1424
-#: pebble/apps/system/workout/active.c:1464
+#: pebble/apps/system/workout/active.c:1223
+#: pebble/apps/system/workout/active.c:1425
+#: pebble/apps/system/workout/active.c:1465
 #, fuzzy
 #| msgid "AVG "
 msgid "AVG BPM"
 msgstr "MOY. "
 
-#: pebble/apps/system/workout/active.c:1246
+#: pebble/apps/system/workout/active.c:1247
 #, fuzzy
 #| msgid "TIME IN ZONES"
 msgid "TIME IN ZONE"
 msgstr "TEMPS EN ZONES"
 
-#: pebble/apps/system/workout/active.c:1393
+#: pebble/apps/system/workout/active.c:1394
 msgid "LAST MINUTE"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1396
+#: pebble/apps/system/workout/active.c:1397
 msgid "WAITING FOR HR"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1421
+#: pebble/apps/system/workout/active.c:1422
 #, c-format
 msgid "ZONE %d"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1424
+#: pebble/apps/system/workout/active.c:1425
 msgid "MEASURING"
 msgstr ""
 
@@ -2977,7 +2977,7 @@ msgstr "Partager votre rythme cardiaque ?"
 msgid "Heart Rate Not Shared"
 msgstr "Rythme cardiaque non partagé"
 
-#: pebble/popups/bluetooth_pairing_ui.c:229
+#: pebble/popups/bluetooth_pairing_ui.c:230
 msgid "Pair?"
 msgstr "Jumeler ?"
 
@@ -3063,19 +3063,19 @@ msgstr "Désactiver Tranquillité"
 msgid "Start Quiet Time"
 msgstr "Activer Tranquillité"
 
-#: pebble/popups/phone_ui.c:585
+#: pebble/popups/phone_ui.c:586
 msgid "Call Accepted"
 msgstr "Appel Accepté"
 
-#: pebble/popups/phone_ui.c:588
+#: pebble/popups/phone_ui.c:589
 msgid "Disconnected"
 msgstr "Déconnecté"
 
-#: pebble/popups/phone_ui.c:591
+#: pebble/popups/phone_ui.c:592
 msgid "Call Ended"
 msgstr "Appel terminé"
 
-#: pebble/popups/phone_ui.c:594
+#: pebble/popups/phone_ui.c:595
 msgid "Call Declined"
 msgstr "Appel Rejeté"
 
@@ -3880,7 +3880,7 @@ msgid "%p"
 msgstr "%p"
 
 #: pebble/services/clock/service.c:581
-#: pebble/services/timeline/timeline_layout.c:424
+#: pebble/services/timeline/timeline_layout.c:437
 msgid "All day"
 msgstr "Journée"
 
@@ -4221,7 +4221,7 @@ msgstr "Dans 15 minutes"
 msgid "Later today"
 msgstr "Plus tard aujourd'hui"
 
-#: pebble/services/timeline/timeline_layout.c:803
+#: pebble/services/timeline/timeline_layout.c:843
 msgid "Last updated"
 msgstr "Mis à jour"
 

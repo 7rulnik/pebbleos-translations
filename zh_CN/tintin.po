@@ -229,13 +229,13 @@ msgstr "%p%I:%M:%S"
 
 #: pebble/applib/pbl_std/timelocal.c:64
 #: pebble/applib/ui/date_time_selection_window_private.c:74
-#: pebble/apps/system/weather/expanded_view.c:94
+#: pebble/apps/system/weather/expanded_view.c:95
 msgid "AM"
 msgstr "AM"
 
 #: pebble/applib/pbl_std/timelocal.c:65
 #: pebble/applib/ui/date_time_selection_window_private.c:76
-#: pebble/apps/system/weather/expanded_view.c:94
+#: pebble/apps/system/weather/expanded_view.c:95
 msgid "PM"
 msgstr "PM"
 
@@ -576,7 +576,7 @@ msgid "Update Failed"
 msgstr "更新失败"
 
 #: pebble/apps/core/progress_ui.c:175
-#: pebble/apps/system/settings/factory_reset.c:59
+#: pebble/apps/system/settings/factory_reset.c:60
 msgid "Resetting..."
 msgstr "正在重置..."
 
@@ -767,7 +767,7 @@ msgstr "卡路里"
 
 #. / Distance Label
 #: pebble/apps/system/health/activity_detail_card.c:90
-#: pebble/apps/system/workout/active.c:193
+#: pebble/apps/system/workout/active.c:194
 msgid "DISTANCE"
 msgstr "距离"
 
@@ -860,7 +860,7 @@ msgid "TIME IN ZONES"
 msgstr "区间时间"
 
 #: pebble/apps/system/health/hr_summary_card.c:135
-#: pebble/apps/system/workout/active.c:1114
+#: pebble/apps/system/workout/active.c:1115
 msgid "BPM"
 msgstr "BPM"
 
@@ -916,7 +916,7 @@ msgstr "%i° - %s"
 msgid "%i°"
 msgstr "%i°"
 
-#: pebble/apps/system/music.c:909
+#: pebble/apps/system/music.c:924
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
@@ -924,7 +924,7 @@ msgstr ""
 "在手机上\n"
 "开始播放"
 
-#: pebble/apps/system/music.c:1860
+#: pebble/apps/system/music.c:1888
 msgid "Music"
 msgstr "音乐"
 
@@ -1398,7 +1398,7 @@ msgstr "旧版应用"
 msgid "Display"
 msgstr "显示"
 
-#: pebble/apps/system/settings/factory_reset.c:112
+#: pebble/apps/system/settings/factory_reset.c:116
 msgid "Perform factory reset?"
 msgstr "执行恢复出厂设置？"
 
@@ -2052,7 +2052,7 @@ msgid "Appears on your watchface when an event is about to start."
 msgstr "事件即将开始时显示在表盘上。"
 
 #: pebble/apps/system/settings/timeline.c:297
-#: pebble/apps/system/timeline/timeline.c:1313
+#: pebble/apps/system/timeline/timeline.c:1315
 msgid "Timeline"
 msgstr "时间线"
 
@@ -2076,17 +2076,17 @@ msgstr "声音和振动"
 msgid "Vibrations"
 msgstr "振动"
 
-#: pebble/apps/system/timeline/timeline.c:909
+#: pebble/apps/system/timeline/timeline.c:911
 msgid "No events"
 msgstr "暂无事件"
 
-#: pebble/apps/system/timeline/timeline.c:1285
+#: pebble/apps/system/timeline/timeline.c:1287
 msgid "Timeline Future"
 msgstr "未来时间线"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
-#: pebble/apps/system/timeline/timeline.c:1300
+#: pebble/apps/system/timeline/timeline.c:1302
 msgid "Timeline Past"
 msgstr "历史时间线"
 
@@ -2221,64 +2221,64 @@ msgstr "使用中"
 msgid "Watchfaces"
 msgstr "表盘"
 
-#: pebble/apps/system/weather/expanded_view.c:113
+#: pebble/apps/system/weather/expanded_view.c:114
 msgid "Sunset --:--"
 msgstr "日落 --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:116
+#: pebble/apps/system/weather/expanded_view.c:117
 #, c-format
 msgid "Sunset %s"
 msgstr "日落 %s"
 
-#: pebble/apps/system/weather/expanded_view.c:141
+#: pebble/apps/system/weather/expanded_view.c:142
 msgid "Last updated --:--"
 msgstr "更新于 --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:144
+#: pebble/apps/system/weather/expanded_view.c:145
 #, c-format
 msgid "Last updated %s"
 msgstr "更新于 %s"
 
-#: pebble/apps/system/weather/expanded_view.c:330
+#: pebble/apps/system/weather/expanded_view.c:331
 msgid "PRECIPITATION: --"
 msgstr "降水概率：--"
 
-#: pebble/apps/system/weather/expanded_view.c:332
+#: pebble/apps/system/weather/expanded_view.c:333
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr "降水概率：%d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:416
+#: pebble/apps/system/weather/expanded_view.c:417
 msgid "CURRENT UV"
 msgstr "当前紫外线"
 
-#: pebble/apps/system/weather/expanded_view.c:425
+#: pebble/apps/system/weather/expanded_view.c:426
 #, c-format
 msgid "UV %d"
 msgstr "紫外线 %d"
 
-#: pebble/apps/system/weather/expanded_view.c:427
+#: pebble/apps/system/weather/expanded_view.c:428
 msgid "UV --"
 msgstr "紫外线 --"
 
-#: pebble/apps/system/weather/expanded_view.c:429
+#: pebble/apps/system/weather/expanded_view.c:430
 #, c-format
 msgid "RAIN %d%%"
 msgstr "降雨 %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:431
+#: pebble/apps/system/weather/expanded_view.c:432
 msgid "RAIN --"
 msgstr "降雨 --"
 
-#: pebble/apps/system/weather/expanded_view.c:439
+#: pebble/apps/system/weather/expanded_view.c:440
 msgid "UV"
 msgstr "紫外线"
 
-#: pebble/apps/system/weather/expanded_view.c:441
+#: pebble/apps/system/weather/expanded_view.c:442
 msgid "RAIN"
 msgstr "降雨"
 
-#: pebble/apps/system/weather/forecast_list.c:1288
+#: pebble/apps/system/weather/forecast_list.c:1289
 msgid "WEATHER REPORT"
 msgstr "天气预报"
 
@@ -2286,11 +2286,11 @@ msgstr "天气预报"
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
 #. %-row->dot (~10-11px each; the graph auto-centres in its band, so the split
 #. holds for any temp spread).
-#: pebble/apps/system/weather/forecast_list.c:1609
+#: pebble/apps/system/weather/forecast_list.c:1610
 msgid "PRECIPITATION"
 msgstr "降水概率"
 
-#: pebble/apps/system/weather/forecast_list.c:2227
+#: pebble/apps/system/weather/forecast_list.c:2228
 #, no-c-format
 msgid "%a, %b %d"
 msgstr "%b%d日 %a"
@@ -2591,224 +2591,224 @@ msgid "UV INDEX"
 msgstr "紫外线指数"
 
 #. / Zone 1 HR Label
-#: pebble/apps/system/workout/active.c:136
+#: pebble/apps/system/workout/active.c:137
 msgid "FAT BURN"
 msgstr "燃脂"
 
 #. / Zone 2 HR Label
-#: pebble/apps/system/workout/active.c:139
+#: pebble/apps/system/workout/active.c:140
 msgid "ENDURANCE"
 msgstr "耐力"
 
 #. / Zone 3 HR Label
-#: pebble/apps/system/workout/active.c:142
+#: pebble/apps/system/workout/active.c:143
 msgid "PERFORMANCE"
 msgstr "表现"
 
 #. / Default/Zone 0 HR Label
-#: pebble/apps/system/workout/active.c:145
+#: pebble/apps/system/workout/active.c:146
 msgid "HEART RATE"
 msgstr "心率"
 
 #. / Duration Label
-#: pebble/apps/system/workout/active.c:162
+#: pebble/apps/system/workout/active.c:163
 msgid "DURATION"
 msgstr "时长"
 
 #. / Average Pace Label
-#: pebble/apps/system/workout/active.c:166
+#: pebble/apps/system/workout/active.c:167
 msgid "AVG PACE"
 msgstr "平均配速"
 
-#: pebble/apps/system/workout/active.c:170
+#: pebble/apps/system/workout/active.c:171
 msgid "AVG PACE (/MI)"
 msgstr "平均配速 (英里)"
 
-#: pebble/apps/system/workout/active.c:170
+#: pebble/apps/system/workout/active.c:171
 msgid "AVG PACE (/KM)"
 msgstr "平均配速 (公里)"
 
 #. / Pace Label
-#: pebble/apps/system/workout/active.c:175
+#: pebble/apps/system/workout/active.c:176
 msgid "PACE"
 msgstr "配速"
 
 #. / Pace Label with units
-#: pebble/apps/system/workout/active.c:178
+#: pebble/apps/system/workout/active.c:179
 msgid "PACE (/MI)"
 msgstr "配速 (英里)"
 
-#: pebble/apps/system/workout/active.c:179
+#: pebble/apps/system/workout/active.c:180
 msgid "PACE (/KM)"
 msgstr "配速 (公里)"
 
 #. / Speed Label
-#: pebble/apps/system/workout/active.c:184
+#: pebble/apps/system/workout/active.c:185
 msgid "SPEED"
 msgstr "速度"
 
 #. / Speed Label with units
-#: pebble/apps/system/workout/active.c:187
+#: pebble/apps/system/workout/active.c:188
 msgid "SPEED (MPH)"
 msgstr "速度 (英里/时)"
 
-#: pebble/apps/system/workout/active.c:188
+#: pebble/apps/system/workout/active.c:189
 msgid "SPEED (KM/H)"
 msgstr "速度 (公里/时)"
 
 #. / Distance Label with units
-#: pebble/apps/system/workout/active.c:196
+#: pebble/apps/system/workout/active.c:197
 msgid "DISTANCE (MI)"
 msgstr "距离 (英里)"
 
-#: pebble/apps/system/workout/active.c:197
+#: pebble/apps/system/workout/active.c:198
 msgid "DISTANCE (KM)"
 msgstr "距离 (公里)"
 
 #. / Steps Label
-#: pebble/apps/system/workout/active.c:201
-#: pebble/apps/system/workout/active.c:1185
-#: pebble/apps/system/workout/active.c:1203
-#: pebble/apps/system/workout/active.c:1228
+#: pebble/apps/system/workout/active.c:202
+#: pebble/apps/system/workout/active.c:1186
+#: pebble/apps/system/workout/active.c:1204
+#: pebble/apps/system/workout/active.c:1229
 msgid "STEPS"
 msgstr "步数"
 
-#: pebble/apps/system/workout/active.c:306
-#: pebble/apps/system/workout/active.c:363
+#: pebble/apps/system/workout/active.c:307
+#: pebble/apps/system/workout/active.c:364
 msgid "MI"
 msgstr "英里"
 
-#: pebble/apps/system/workout/active.c:306
-#: pebble/apps/system/workout/active.c:363
+#: pebble/apps/system/workout/active.c:307
+#: pebble/apps/system/workout/active.c:364
 msgid "KM"
 msgstr "公里"
 
-#: pebble/apps/system/workout/active.c:382
+#: pebble/apps/system/workout/active.c:383
 msgid "MPH"
 msgstr "英里/时"
 
-#: pebble/apps/system/workout/active.c:382
+#: pebble/apps/system/workout/active.c:383
 msgid "KM/H"
 msgstr "公里/时"
 
-#: pebble/apps/system/workout/active.c:1053
+#: pebble/apps/system/workout/active.c:1054
 msgid "COMPLETE"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1056
+#: pebble/apps/system/workout/active.c:1057
 msgid "END WORKOUT?"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1060
+#: pebble/apps/system/workout/active.c:1061
 msgid "PAUSED"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1114
+#: pebble/apps/system/workout/active.c:1115
 #, fuzzy
 #| msgid "ON AVG"
 msgid "AVG"
 msgstr "平均"
 
-#: pebble/apps/system/workout/active.c:1117
-#: pebble/apps/system/workout/active.c:1269
+#: pebble/apps/system/workout/active.c:1118
+#: pebble/apps/system/workout/active.c:1270
 #, fuzzy, c-format
 #| msgid "%d"
 msgid "Z%d"
 msgstr "%d"
 
-#: pebble/apps/system/workout/active.c:1173
-#: pebble/apps/system/workout/active.c:1219
-#: pebble/apps/system/workout/active.c:1463
+#: pebble/apps/system/workout/active.c:1174
+#: pebble/apps/system/workout/active.c:1220
+#: pebble/apps/system/workout/active.c:1464
 #, fuzzy
 #| msgid "TOTAL"
 msgid "TOTAL TIME"
 msgstr "总计"
 
-#: pebble/apps/system/workout/active.c:1173
-#: pebble/apps/system/workout/active.c:1219
+#: pebble/apps/system/workout/active.c:1174
+#: pebble/apps/system/workout/active.c:1220
 #, fuzzy
 #| msgid "TIMEOUT"
 msgid "TIMER"
 msgstr "超时"
 
-#: pebble/apps/system/workout/active.c:1180
+#: pebble/apps/system/workout/active.c:1181
 #, fuzzy
 #| msgid "DISTANCE (MI)"
 msgid "DIST MI"
 msgstr "距离 (英里)"
 
-#: pebble/apps/system/workout/active.c:1181
+#: pebble/apps/system/workout/active.c:1182
 #, fuzzy
 #| msgid "DISTANCE (KM)"
 msgid "DIST KM"
 msgstr "距离 (公里)"
 
-#: pebble/apps/system/workout/active.c:1182
-#: pebble/apps/system/workout/active.c:1215
+#: pebble/apps/system/workout/active.c:1183
+#: pebble/apps/system/workout/active.c:1216
 #, fuzzy
 #| msgid "PACE (/MI)"
 msgid "PACE /MI"
 msgstr "配速 (英里)"
 
-#: pebble/apps/system/workout/active.c:1183
-#: pebble/apps/system/workout/active.c:1216
+#: pebble/apps/system/workout/active.c:1184
+#: pebble/apps/system/workout/active.c:1217
 #, fuzzy
 #| msgid "PACE (/KM)"
 msgid "PACE /KM"
 msgstr "配速 (公里)"
 
-#: pebble/apps/system/workout/active.c:1187
-#: pebble/apps/system/workout/active.c:1204
-#: pebble/apps/system/workout/active.c:1229
-#: pebble/apps/system/workout/active.c:1465
+#: pebble/apps/system/workout/active.c:1188
+#: pebble/apps/system/workout/active.c:1205
+#: pebble/apps/system/workout/active.c:1230
+#: pebble/apps/system/workout/active.c:1466
 msgid "KCAL"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1202
-#: pebble/apps/system/workout/active.c:1227
+#: pebble/apps/system/workout/active.c:1203
+#: pebble/apps/system/workout/active.c:1228
 msgid "CADENCE"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1213
+#: pebble/apps/system/workout/active.c:1214
 #, fuzzy
 #| msgid "SPEED (MPH)"
 msgid "SPEED MPH"
 msgstr "速度 (英里/时)"
 
-#: pebble/apps/system/workout/active.c:1214
+#: pebble/apps/system/workout/active.c:1215
 #, fuzzy
 #| msgid "SPEED (KM/H)"
 msgid "SPEED KM/H"
 msgstr "速度 (公里/时)"
 
-#: pebble/apps/system/workout/active.c:1222
-#: pebble/apps/system/workout/active.c:1424
-#: pebble/apps/system/workout/active.c:1464
+#: pebble/apps/system/workout/active.c:1223
+#: pebble/apps/system/workout/active.c:1425
+#: pebble/apps/system/workout/active.c:1465
 #, fuzzy
 #| msgid "AVG PACE"
 msgid "AVG BPM"
 msgstr "平均配速"
 
-#: pebble/apps/system/workout/active.c:1246
+#: pebble/apps/system/workout/active.c:1247
 #, fuzzy
 #| msgid "TIME IN ZONES"
 msgid "TIME IN ZONE"
 msgstr "区间时间"
 
-#: pebble/apps/system/workout/active.c:1393
+#: pebble/apps/system/workout/active.c:1394
 msgid "LAST MINUTE"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1396
+#: pebble/apps/system/workout/active.c:1397
 msgid "WAITING FOR HR"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1421
+#: pebble/apps/system/workout/active.c:1422
 #, c-format
 msgid "ZONE %d"
 msgstr ""
 
-#: pebble/apps/system/workout/active.c:1424
+#: pebble/apps/system/workout/active.c:1425
 msgid "MEASURING"
 msgstr ""
 
@@ -2966,7 +2966,7 @@ msgstr "共享心率？"
 msgid "Heart Rate Not Shared"
 msgstr "心率未共享"
 
-#: pebble/popups/bluetooth_pairing_ui.c:229
+#: pebble/popups/bluetooth_pairing_ui.c:230
 msgid "Pair?"
 msgstr "配对？"
 
@@ -3048,19 +3048,19 @@ msgstr "结束勿扰时间"
 msgid "Start Quiet Time"
 msgstr "开始勿扰时间"
 
-#: pebble/popups/phone_ui.c:585
+#: pebble/popups/phone_ui.c:586
 msgid "Call Accepted"
 msgstr "电话已接听"
 
-#: pebble/popups/phone_ui.c:588
+#: pebble/popups/phone_ui.c:589
 msgid "Disconnected"
 msgstr "已断开连接"
 
-#: pebble/popups/phone_ui.c:591
+#: pebble/popups/phone_ui.c:592
 msgid "Call Ended"
 msgstr "通话已结束"
 
-#: pebble/popups/phone_ui.c:594
+#: pebble/popups/phone_ui.c:595
 msgid "Call Declined"
 msgstr "电话已拒接"
 
@@ -3796,7 +3796,7 @@ msgid "%p"
 msgstr "%p"
 
 #: pebble/services/clock/service.c:581
-#: pebble/services/timeline/timeline_layout.c:424
+#: pebble/services/timeline/timeline_layout.c:437
 msgid "All day"
 msgstr "全天"
 
@@ -4131,7 +4131,7 @@ msgstr "15 分钟后"
 msgid "Later today"
 msgstr "今天晚些时候"
 
-#: pebble/services/timeline/timeline_layout.c:803
+#: pebble/services/timeline/timeline_layout.c:843
 msgid "Last updated"
 msgstr "最后更新"
 
