@@ -2983,19 +2983,19 @@ msgstr "Выключить Тихий режим"
 msgid "Start Quiet Time"
 msgstr "Включить Тихий режим"
 
-#: pebble/popups/phone_ui.c:579
+#: pebble/popups/phone_ui.c:585
 msgid "Call Accepted"
 msgstr "Звонок принят"
 
-#: pebble/popups/phone_ui.c:582
+#: pebble/popups/phone_ui.c:588
 msgid "Disconnected"
 msgstr "Отключён"
 
-#: pebble/popups/phone_ui.c:585
+#: pebble/popups/phone_ui.c:591
 msgid "Call Ended"
 msgstr "Звонок завершён"
 
-#: pebble/popups/phone_ui.c:588
+#: pebble/popups/phone_ui.c:594
 msgid "Call Declined"
 msgstr "Звонок отклонён"
 

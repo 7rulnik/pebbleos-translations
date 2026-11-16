@@ -3069,19 +3069,19 @@ msgstr "End Quiet Time"
 msgid "Start Quiet Time"
 msgstr "Start Quiet Time"
 
-#: pebble/popups/phone_ui.c:579
+#: pebble/popups/phone_ui.c:585
 msgid "Call Accepted"
 msgstr "Call Accepted"
 
-#: pebble/popups/phone_ui.c:582
+#: pebble/popups/phone_ui.c:588
 msgid "Disconnected"
 msgstr "Niet verbonden"
 
-#: pebble/popups/phone_ui.c:585
+#: pebble/popups/phone_ui.c:591
 msgid "Call Ended"
 msgstr "Gesprek beëindigd"
 
-#: pebble/popups/phone_ui.c:588
+#: pebble/popups/phone_ui.c:594
 msgid "Call Declined"
 msgstr "Call Declined"
 

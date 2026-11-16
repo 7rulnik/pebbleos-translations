@@ -2982,19 +2982,19 @@ msgstr "Avsluta tyst stund"
 msgid "Start Quiet Time"
 msgstr "Starta tyst stund"
 
-#: pebble/popups/phone_ui.c:579
+#: pebble/popups/phone_ui.c:585
 msgid "Call Accepted"
 msgstr "Samtal accepterat"
 
-#: pebble/popups/phone_ui.c:582
+#: pebble/popups/phone_ui.c:588
 msgid "Disconnected"
 msgstr "Frånkopplad"
 
-#: pebble/popups/phone_ui.c:585
+#: pebble/popups/phone_ui.c:591
 msgid "Call Ended"
 msgstr "Samtal avslutat"
 
-#: pebble/popups/phone_ui.c:588
+#: pebble/popups/phone_ui.c:594
 msgid "Call Declined"
 msgstr "Samtal avböjt"
 

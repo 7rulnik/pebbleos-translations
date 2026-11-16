@@ -3048,19 +3048,19 @@ msgstr "结束勿扰时间"
 msgid "Start Quiet Time"
 msgstr "开始勿扰时间"
 
-#: pebble/popups/phone_ui.c:579
+#: pebble/popups/phone_ui.c:585
 msgid "Call Accepted"
 msgstr "电话已接听"
 
-#: pebble/popups/phone_ui.c:582
+#: pebble/popups/phone_ui.c:588
 msgid "Disconnected"
 msgstr "已断开连接"
 
-#: pebble/popups/phone_ui.c:585
+#: pebble/popups/phone_ui.c:591
 msgid "Call Ended"
 msgstr "通话已结束"
 
-#: pebble/popups/phone_ui.c:588
+#: pebble/popups/phone_ui.c:594
 msgid "Call Declined"
 msgstr "电话已拒接"
 
