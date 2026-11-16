@@ -907,7 +907,7 @@ msgstr ""
 "ПОЧАТИ ВІДТВОРЕННЯ\n"
 "НА ТЕЛЕФОНІ"
 
-#: pebble/apps/system/music.c:1854
+#: pebble/apps/system/music.c:1860
 msgid "Music"
 msgstr "Музика"
 

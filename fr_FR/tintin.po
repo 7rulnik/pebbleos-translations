@@ -928,7 +928,7 @@ msgstr ""
 "LA LECTURE\n"
 "SUR LE MOBILE"
 
-#: pebble/apps/system/music.c:1854
+#: pebble/apps/system/music.c:1860
 msgid "Music"
 msgstr "Musique"
 

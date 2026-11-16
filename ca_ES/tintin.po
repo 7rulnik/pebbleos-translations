@@ -904,7 +904,7 @@ msgstr ""
 "INICIA LA REPRODUCCIÓ\n"
 "AL TELÈFON"
 
-#: pebble/apps/system/music.c:1854
+#: pebble/apps/system/music.c:1860
 msgid "Music"
 msgstr "Música"
 

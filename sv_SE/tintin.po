@@ -905,7 +905,7 @@ msgstr ""
 "STARTA UPPSPELNING\n"
 "PÅ DIN TELEFON"
 
-#: pebble/apps/system/music.c:1854
+#: pebble/apps/system/music.c:1860
 msgid "Music"
 msgstr "Musik"
 

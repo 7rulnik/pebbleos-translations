@@ -924,7 +924,7 @@ msgstr ""
 "在手机上\n"
 "开始播放"
 
-#: pebble/apps/system/music.c:1854
+#: pebble/apps/system/music.c:1860
 msgid "Music"
 msgstr "音乐"
 

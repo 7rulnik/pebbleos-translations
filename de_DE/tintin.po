@@ -905,7 +905,7 @@ msgstr ""
 "SPIELE ETWAS AUF\n"
 "DEINEM HANDY AB"
 
-#: pebble/apps/system/music.c:1854
+#: pebble/apps/system/music.c:1860
 msgid "Music"
 msgstr "Musik"
 
