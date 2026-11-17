@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-14 00:13+0000\n"
+"PO-Revision-Date: 2026-11-17 20:48+0000\n"
 "Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
@@ -1791,16 +1791,16 @@ msgstr "Чутливість до руху"
 
 #: pebble/apps/system/settings/system.c:484
 msgid "Kraepelin"
-msgstr ""
+msgstr "Крепелін"
 
 #: pebble/apps/system/settings/system.c:485
 msgid "van Hees"
-msgstr ""
+msgstr "ван Гіс"
 
 #: pebble/apps/system/settings/system.c:500
 #: pebble/apps/system/settings/system.c:530
 msgid "Sleep Algorithm"
-msgstr ""
+msgstr "Алгоритм сну"
 
 #: pebble/apps/system/settings/system.c:522
 msgid "CoreDump now"
