@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-07 03:26+0000\n"
+"PO-Revision-Date: 2026-11-17 05:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -2326,10 +2326,8 @@ msgid "Rain & Snow"
 msgstr "Pluie et neige"
 
 #: pebble/apps/system/weather/weather.c:130
-#, fuzzy
-#| msgid "Clear All"
 msgid "Clear"
-msgstr "Tout effacer"
+msgstr "Effacer"
 
 #: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
