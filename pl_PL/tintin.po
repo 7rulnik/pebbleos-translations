@@ -2914,19 +2914,19 @@ msgstr ""
 "Noś zegarek ciasno, dwa palce powyżej kości nadgarstka, aby uzyskać "
 "najlepsze wyniki."
 
-#: pebble/apps/watch/kickstart/kickstart.c:365
+#: pebble/apps/watch/kickstart/kickstart.c:367
 #, c-format
 msgid "%d BPM"
 msgstr "%d ud./min"
 
 #. / Step count greater than 1000 with a thousands separator
-#: pebble/apps/watch/kickstart/kickstart.c:475
+#: pebble/apps/watch/kickstart/kickstart.c:477
 #, c-format
 msgid "%d,%03d"
 msgstr "%d %03d"
 
 #. / Step count less than 1000
-#: pebble/apps/watch/kickstart/kickstart.c:479
+#: pebble/apps/watch/kickstart/kickstart.c:481
 #: pebble/services/activity/health_util.c:93
 #: pebble/services/activity/health_util.c:110
 #: pebble/services/clock/service.c:1007
