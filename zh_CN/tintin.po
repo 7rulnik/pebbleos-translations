@@ -1108,7 +1108,7 @@ msgstr "请同时解除手机与 Pebble 的蓝牙配对。"
 #: pebble/apps/system/settings/quiet_time.c:611
 #: pebble/apps/system/settings/quiet_time.c:616
 #: pebble/apps/system/settings/quiet_time.c:636
-#: pebble/apps/system/settings/system.c:1312
+#: pebble/apps/system/settings/system.c:1296
 #: pebble/apps/system/settings/timeline.c:193
 #: pebble/apps/system/settings/vibe_patterns.c:91
 msgid "Off"
@@ -1128,7 +1128,7 @@ msgstr "关"
 #: pebble/apps/system/settings/quiet_time.c:610
 #: pebble/apps/system/settings/quiet_time.c:615
 #: pebble/apps/system/settings/quiet_time.c:635
-#: pebble/apps/system/settings/system.c:1312
+#: pebble/apps/system/settings/system.c:1296
 #: pebble/apps/system/settings/timeline.c:190
 #: pebble/apps/system/settings/vibe_patterns.c:91
 msgid "On"
@@ -1151,7 +1151,7 @@ msgstr ""
 
 #: pebble/apps/system/settings/display.c:87
 #: pebble/apps/system/settings/display.c:712
-#: pebble/apps/system/settings/system.c:212
+#: pebble/apps/system/settings/system.c:211
 msgid "Language"
 msgstr "语言"
 
@@ -1183,17 +1183,17 @@ msgid "Text Size"
 msgstr "文字大小"
 
 #: pebble/apps/system/settings/display.c:125
-#: pebble/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:442
 msgid "Low"
 msgstr "低"
 
 #: pebble/apps/system/settings/display.c:125
-#: pebble/apps/system/settings/system.c:444
+#: pebble/apps/system/settings/system.c:443
 msgid "Medium"
 msgstr "中"
 
 #: pebble/apps/system/settings/display.c:125
-#: pebble/apps/system/settings/system.c:444
+#: pebble/apps/system/settings/system.c:443
 msgid "High"
 msgstr "高"
 
@@ -1398,7 +1398,7 @@ msgstr "旧版应用"
 msgid "Display"
 msgstr "显示"
 
-#: pebble/apps/system/settings/factory_reset.c:116
+#: pebble/apps/system/settings/factory_reset.c:106
 msgid "Perform factory reset?"
 msgstr "执行恢复出厂设置？"
 
@@ -1435,9 +1435,9 @@ msgstr "1小时"
 
 #: pebble/apps/system/settings/health.c:36
 #: pebble/apps/system/settings/health.c:59
-#: pebble/apps/system/settings/system.c:525
-#: pebble/apps/system/settings/system.c:541
-#: pebble/apps/system/settings/system.c:544
+#: pebble/apps/system/settings/system.c:524
+#: pebble/apps/system/settings/system.c:540
+#: pebble/apps/system/settings/system.c:543
 msgid "Disabled"
 msgstr "禁用"
 
@@ -1731,194 +1731,190 @@ msgstr "设置"
 msgid "Volume"
 msgstr "音量"
 
-#: pebble/apps/system/settings/system.c:164
-#: pebble/apps/system/settings/system.c:259
+#: pebble/apps/system/settings/system.c:163
+#: pebble/apps/system/settings/system.c:258
 msgid "Information"
 msgstr "信息"
 
-#: pebble/apps/system/settings/system.c:165
-#: pebble/apps/system/settings/system.c:965
+#: pebble/apps/system/settings/system.c:164
+#: pebble/apps/system/settings/system.c:964
 msgid "Certification"
 msgstr "认证"
 
-#: pebble/apps/system/settings/system.c:166
+#: pebble/apps/system/settings/system.c:165
 msgid "Stand-By Mode"
 msgstr "待机模式"
 
-#: pebble/apps/system/settings/system.c:167
-#: pebble/apps/system/settings/system.c:607
+#: pebble/apps/system/settings/system.c:166
+#: pebble/apps/system/settings/system.c:606
 msgid "Debugging"
 msgstr "调试"
 
-#: pebble/apps/system/settings/system.c:168
+#: pebble/apps/system/settings/system.c:167
 msgid "Shut Down"
 msgstr "关机"
 
-#: pebble/apps/system/settings/system.c:169
+#: pebble/apps/system/settings/system.c:168
 msgid "Factory Reset"
 msgstr "恢复出厂设置"
 
-#: pebble/apps/system/settings/system.c:210
+#: pebble/apps/system/settings/system.c:209
 msgid "BT Address"
 msgstr "蓝牙地址"
 
-#: pebble/apps/system/settings/system.c:211
+#: pebble/apps/system/settings/system.c:210
 msgid "Firmware"
 msgstr "固件版本"
 
-#: pebble/apps/system/settings/system.c:213
+#: pebble/apps/system/settings/system.c:212
 msgid "Recovery"
 msgstr "恢复模式"
 
-#: pebble/apps/system/settings/system.c:214
+#: pebble/apps/system/settings/system.c:213
 msgid "Bootloader"
 msgstr "引导程序"
 
-#: pebble/apps/system/settings/system.c:215
+#: pebble/apps/system/settings/system.c:214
 msgid "Hardware"
 msgstr "硬件"
 
-#: pebble/apps/system/settings/system.c:216
+#: pebble/apps/system/settings/system.c:215
 msgid "Serial"
 msgstr "序列号"
 
-#: pebble/apps/system/settings/system.c:217
+#: pebble/apps/system/settings/system.c:216
 msgid "Uptime"
 msgstr "运行时间"
 
-#: pebble/apps/system/settings/system.c:218
+#: pebble/apps/system/settings/system.c:217
 msgid "Legal"
 msgstr "法律信息"
 
-#: pebble/apps/system/settings/system.c:355
+#: pebble/apps/system/settings/system.c:354
 msgid "Core dump and reboot?"
 msgstr "生成核心转储并重启？"
 
-#: pebble/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:442
 msgid "Very Low"
 msgstr "极低"
 
-#: pebble/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:442
 msgid "Medium-Low"
 msgstr "中低"
 
-#: pebble/apps/system/settings/system.c:444
+#: pebble/apps/system/settings/system.c:443
 msgid "Medium-High"
 msgstr "中高"
 
-#: pebble/apps/system/settings/system.c:445
+#: pebble/apps/system/settings/system.c:444
 msgid "Very High"
 msgstr "极高"
 
-#: pebble/apps/system/settings/system.c:471
-#: pebble/apps/system/settings/system.c:497
+#: pebble/apps/system/settings/system.c:470
+#: pebble/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
 msgstr "动作灵敏度"
 
-#: pebble/apps/system/settings/system.c:493
+#: pebble/apps/system/settings/system.c:492
 msgid "CoreDump now"
 msgstr "立即核心转储"
 
-#: pebble/apps/system/settings/system.c:494
+#: pebble/apps/system/settings/system.c:493
 msgid "CoreDump shortcut"
 msgstr "核心转储快捷键"
 
-#: pebble/apps/system/settings/system.c:495
+#: pebble/apps/system/settings/system.c:494
 msgid "ALS Threshold"
 msgstr "环境光阈值"
 
-#: pebble/apps/system/settings/system.c:499
+#: pebble/apps/system/settings/system.c:498
 msgid "Shake Log Info"
 msgstr "摇动日志信息"
 
-#: pebble/apps/system/settings/system.c:500
+#: pebble/apps/system/settings/system.c:499
 msgid "Vibe Log Info"
 msgstr "振动日志信息"
 
-#: pebble/apps/system/settings/system.c:501
+#: pebble/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
 msgstr "压缩设置数据库"
 
-#: pebble/apps/system/settings/system.c:503
+#: pebble/apps/system/settings/system.c:502
 msgid "SpO2 Test"
 msgstr ""
 
-#: pebble/apps/system/settings/system.c:524
+#: pebble/apps/system/settings/system.c:523
 msgid "10 back-button presses"
 msgstr "连按返回键 10 次"
 
-#: pebble/apps/system/settings/system.c:540
-#: pebble/apps/system/settings/system.c:543
+#: pebble/apps/system/settings/system.c:539
+#: pebble/apps/system/settings/system.c:542
 msgid "Enabled"
 msgstr "启用"
 
-#: pebble/apps/system/settings/system.c:682
+#: pebble/apps/system/settings/system.c:681
 msgid "PebbleOS developers only!"
 msgstr "仅供 PebbleOS 开发者！"
 
-#: pebble/apps/system/settings/system.c:929
+#: pebble/apps/system/settings/system.c:928
 msgid "See details..."
 msgstr "查看详情..."
 
-#: pebble/apps/system/settings/system.c:987
+#: pebble/apps/system/settings/system.c:986
 msgid "Company"
 msgstr "公司"
 
-#: pebble/apps/system/settings/system.c:995
+#: pebble/apps/system/settings/system.c:994
 msgid "Product Model"
 msgstr "产品型号"
 
-#: pebble/apps/system/settings/system.c:1002
+#: pebble/apps/system/settings/system.c:1001
 msgid "Product Type"
 msgstr "产品类型"
 
-#: pebble/apps/system/settings/system.c:1009
+#: pebble/apps/system/settings/system.c:1008
 msgid "Trademark"
 msgstr "商标"
 
-#: pebble/apps/system/settings/system.c:1016
+#: pebble/apps/system/settings/system.c:1015
 msgid "Place of Origin"
 msgstr "原产地"
 
-#: pebble/apps/system/settings/system.c:1023
+#: pebble/apps/system/settings/system.c:1022
 msgid "DC Input"
 msgstr "直流输入"
 
-#: pebble/apps/system/settings/system.c:1030
+#: pebble/apps/system/settings/system.c:1029
 msgid "Rated Voltage"
 msgstr "额定电压"
 
-#: pebble/apps/system/settings/system.c:1037
+#: pebble/apps/system/settings/system.c:1036
 msgid "Milliampere-hour"
 msgstr "毫安时"
 
-#: pebble/apps/system/settings/system.c:1044
+#: pebble/apps/system/settings/system.c:1043
 msgid "Watt-hour"
 msgstr "瓦时"
 
-#: pebble/apps/system/settings/system.c:1058
+#: pebble/apps/system/settings/system.c:1057
 msgid "Canada IC"
 msgstr "加拿大 IC"
 
-#: pebble/apps/system/settings/system.c:1065
+#: pebble/apps/system/settings/system.c:1064
 msgid "Canada ISED"
 msgstr "加拿大 ISED"
 
-#: pebble/apps/system/settings/system.c:1079
-#: pebble/apps/system/settings/system.c:1187
+#: pebble/apps/system/settings/system.c:1078
+#: pebble/apps/system/settings/system.c:1186
 msgid "South Korea KCC"
 msgstr "韩国 KCC"
 
-#: pebble/apps/system/settings/system.c:1258
-msgid "Disconnect the charger to shut down."
-msgstr ""
-
-#: pebble/apps/system/settings/system.c:1292
+#: pebble/apps/system/settings/system.c:1276
 msgid "Do you want to shut down?"
 msgstr "要关机吗？"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: pebble/apps/system/settings/system.c:1379
+#: pebble/apps/system/settings/system.c:1363
 #: pebble/apps/system/settings/vibe_patterns.c:72
 msgid "System"
 msgstr "系统"

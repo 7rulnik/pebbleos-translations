@@ -1088,7 +1088,7 @@ msgstr "Recorda oblidar també la connexió Bluetooth del Pebble des del telèfo
 #: pebble/apps/system/settings/quiet_time.c:611
 #: pebble/apps/system/settings/quiet_time.c:616
 #: pebble/apps/system/settings/quiet_time.c:636
-#: pebble/apps/system/settings/system.c:1312
+#: pebble/apps/system/settings/system.c:1296
 #: pebble/apps/system/settings/timeline.c:193
 #: pebble/apps/system/settings/vibe_patterns.c:91
 msgid "Off"
@@ -1108,7 +1108,7 @@ msgstr "Desactivat"
 #: pebble/apps/system/settings/quiet_time.c:610
 #: pebble/apps/system/settings/quiet_time.c:615
 #: pebble/apps/system/settings/quiet_time.c:635
-#: pebble/apps/system/settings/system.c:1312
+#: pebble/apps/system/settings/system.c:1296
 #: pebble/apps/system/settings/timeline.c:190
 #: pebble/apps/system/settings/vibe_patterns.c:91
 msgid "On"
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: pebble/apps/system/settings/display.c:87
 #: pebble/apps/system/settings/display.c:712
-#: pebble/apps/system/settings/system.c:212
+#: pebble/apps/system/settings/system.c:211
 msgid "Language"
 msgstr "Idioma"
 
@@ -1163,17 +1163,17 @@ msgid "Text Size"
 msgstr "Mida del text"
 
 #: pebble/apps/system/settings/display.c:125
-#: pebble/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:442
 msgid "Low"
 msgstr "Baix"
 
 #: pebble/apps/system/settings/display.c:125
-#: pebble/apps/system/settings/system.c:444
+#: pebble/apps/system/settings/system.c:443
 msgid "Medium"
 msgstr "Mitjà"
 
 #: pebble/apps/system/settings/display.c:125
-#: pebble/apps/system/settings/system.c:444
+#: pebble/apps/system/settings/system.c:443
 msgid "High"
 msgstr "Alt"
 
@@ -1378,7 +1378,7 @@ msgstr "Apps antigues"
 msgid "Display"
 msgstr "Pantalla"
 
-#: pebble/apps/system/settings/factory_reset.c:116
+#: pebble/apps/system/settings/factory_reset.c:106
 msgid "Perform factory reset?"
 msgstr "Vols restablir de fàbrica?"
 
@@ -1413,9 +1413,9 @@ msgstr "1 hora"
 
 #: pebble/apps/system/settings/health.c:36
 #: pebble/apps/system/settings/health.c:59
-#: pebble/apps/system/settings/system.c:525
-#: pebble/apps/system/settings/system.c:541
-#: pebble/apps/system/settings/system.c:544
+#: pebble/apps/system/settings/system.c:524
+#: pebble/apps/system/settings/system.c:540
+#: pebble/apps/system/settings/system.c:543
 msgid "Disabled"
 msgstr "Desactivat"
 
@@ -1701,194 +1701,190 @@ msgstr "Configuració"
 msgid "Volume"
 msgstr "Volum"
 
-#: pebble/apps/system/settings/system.c:164
-#: pebble/apps/system/settings/system.c:259
+#: pebble/apps/system/settings/system.c:163
+#: pebble/apps/system/settings/system.c:258
 msgid "Information"
 msgstr "Informació"
 
-#: pebble/apps/system/settings/system.c:165
-#: pebble/apps/system/settings/system.c:965
+#: pebble/apps/system/settings/system.c:164
+#: pebble/apps/system/settings/system.c:964
 msgid "Certification"
 msgstr "Certificació"
 
-#: pebble/apps/system/settings/system.c:166
+#: pebble/apps/system/settings/system.c:165
 msgid "Stand-By Mode"
 msgstr "Mode espera"
 
-#: pebble/apps/system/settings/system.c:167
-#: pebble/apps/system/settings/system.c:607
+#: pebble/apps/system/settings/system.c:166
+#: pebble/apps/system/settings/system.c:606
 msgid "Debugging"
 msgstr "Depuració"
 
-#: pebble/apps/system/settings/system.c:168
+#: pebble/apps/system/settings/system.c:167
 msgid "Shut Down"
 msgstr "Apaga"
 
-#: pebble/apps/system/settings/system.c:169
+#: pebble/apps/system/settings/system.c:168
 msgid "Factory Reset"
 msgstr "Restabliment de fàbrica"
 
-#: pebble/apps/system/settings/system.c:210
+#: pebble/apps/system/settings/system.c:209
 msgid "BT Address"
 msgstr "Adreça BT"
 
-#: pebble/apps/system/settings/system.c:211
+#: pebble/apps/system/settings/system.c:210
 msgid "Firmware"
 msgstr "Firmware"
 
-#: pebble/apps/system/settings/system.c:213
+#: pebble/apps/system/settings/system.c:212
 msgid "Recovery"
 msgstr "Recuperació"
 
-#: pebble/apps/system/settings/system.c:214
+#: pebble/apps/system/settings/system.c:213
 msgid "Bootloader"
 msgstr "Carregador d'arrencada"
 
-#: pebble/apps/system/settings/system.c:215
+#: pebble/apps/system/settings/system.c:214
 msgid "Hardware"
 msgstr "Maquinari"
 
-#: pebble/apps/system/settings/system.c:216
+#: pebble/apps/system/settings/system.c:215
 msgid "Serial"
 msgstr "Sèrie"
 
-#: pebble/apps/system/settings/system.c:217
+#: pebble/apps/system/settings/system.c:216
 msgid "Uptime"
 msgstr "Temps actiu"
 
-#: pebble/apps/system/settings/system.c:218
+#: pebble/apps/system/settings/system.c:217
 msgid "Legal"
 msgstr "Legal"
 
-#: pebble/apps/system/settings/system.c:355
+#: pebble/apps/system/settings/system.c:354
 msgid "Core dump and reboot?"
 msgstr "Bolcar memòria i reiniciar?"
 
-#: pebble/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:442
 msgid "Very Low"
 msgstr "Molt baix"
 
-#: pebble/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:442
 msgid "Medium-Low"
 msgstr "Mitjà-baix"
 
-#: pebble/apps/system/settings/system.c:444
+#: pebble/apps/system/settings/system.c:443
 msgid "Medium-High"
 msgstr "Mitjà-alt"
 
-#: pebble/apps/system/settings/system.c:445
+#: pebble/apps/system/settings/system.c:444
 msgid "Very High"
 msgstr "Molt alt"
 
-#: pebble/apps/system/settings/system.c:471
-#: pebble/apps/system/settings/system.c:497
+#: pebble/apps/system/settings/system.c:470
+#: pebble/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
 msgstr "Sensibilitat al moviment"
 
-#: pebble/apps/system/settings/system.c:493
+#: pebble/apps/system/settings/system.c:492
 msgid "CoreDump now"
 msgstr "Bolca memòria ara"
 
-#: pebble/apps/system/settings/system.c:494
+#: pebble/apps/system/settings/system.c:493
 msgid "CoreDump shortcut"
 msgstr "Drecera de bolcat"
 
-#: pebble/apps/system/settings/system.c:495
+#: pebble/apps/system/settings/system.c:494
 msgid "ALS Threshold"
 msgstr "Llindar d'ALS"
 
-#: pebble/apps/system/settings/system.c:499
+#: pebble/apps/system/settings/system.c:498
 msgid "Shake Log Info"
 msgstr "Registre info sacsejada"
 
-#: pebble/apps/system/settings/system.c:500
+#: pebble/apps/system/settings/system.c:499
 msgid "Vibe Log Info"
 msgstr "Registre info vibració"
 
-#: pebble/apps/system/settings/system.c:501
+#: pebble/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
 msgstr "Compacta BD de configuració"
 
-#: pebble/apps/system/settings/system.c:503
+#: pebble/apps/system/settings/system.c:502
 msgid "SpO2 Test"
 msgstr "Test SpO2"
 
-#: pebble/apps/system/settings/system.c:524
+#: pebble/apps/system/settings/system.c:523
 msgid "10 back-button presses"
 msgstr "10 pulsacions del botó enrere"
 
-#: pebble/apps/system/settings/system.c:540
-#: pebble/apps/system/settings/system.c:543
+#: pebble/apps/system/settings/system.c:539
+#: pebble/apps/system/settings/system.c:542
 msgid "Enabled"
 msgstr "Activat"
 
-#: pebble/apps/system/settings/system.c:682
+#: pebble/apps/system/settings/system.c:681
 msgid "PebbleOS developers only!"
 msgstr "Només desenvolupadors de PebbleOS!"
 
-#: pebble/apps/system/settings/system.c:929
+#: pebble/apps/system/settings/system.c:928
 msgid "See details..."
 msgstr "Mostra els detalls..."
 
-#: pebble/apps/system/settings/system.c:987
+#: pebble/apps/system/settings/system.c:986
 msgid "Company"
 msgstr "Empresa"
 
-#: pebble/apps/system/settings/system.c:995
+#: pebble/apps/system/settings/system.c:994
 msgid "Product Model"
 msgstr "Model del producte"
 
-#: pebble/apps/system/settings/system.c:1002
+#: pebble/apps/system/settings/system.c:1001
 msgid "Product Type"
 msgstr "Tipus de producte"
 
-#: pebble/apps/system/settings/system.c:1009
+#: pebble/apps/system/settings/system.c:1008
 msgid "Trademark"
 msgstr "Marca comercial"
 
-#: pebble/apps/system/settings/system.c:1016
+#: pebble/apps/system/settings/system.c:1015
 msgid "Place of Origin"
 msgstr "Lloc d'origen"
 
-#: pebble/apps/system/settings/system.c:1023
+#: pebble/apps/system/settings/system.c:1022
 msgid "DC Input"
 msgstr "Entrada de CC"
 
-#: pebble/apps/system/settings/system.c:1030
+#: pebble/apps/system/settings/system.c:1029
 msgid "Rated Voltage"
 msgstr "Tensió nominal"
 
-#: pebble/apps/system/settings/system.c:1037
+#: pebble/apps/system/settings/system.c:1036
 msgid "Milliampere-hour"
 msgstr "Mil·liampere-hora"
 
-#: pebble/apps/system/settings/system.c:1044
+#: pebble/apps/system/settings/system.c:1043
 msgid "Watt-hour"
 msgstr "Watt-hora"
 
-#: pebble/apps/system/settings/system.c:1058
+#: pebble/apps/system/settings/system.c:1057
 msgid "Canada IC"
 msgstr "IC del Canadà"
 
-#: pebble/apps/system/settings/system.c:1065
+#: pebble/apps/system/settings/system.c:1064
 msgid "Canada ISED"
 msgstr "ISED del Canadà"
 
-#: pebble/apps/system/settings/system.c:1079
-#: pebble/apps/system/settings/system.c:1187
+#: pebble/apps/system/settings/system.c:1078
+#: pebble/apps/system/settings/system.c:1186
 msgid "South Korea KCC"
 msgstr "KCC de Corea del Sud"
 
-#: pebble/apps/system/settings/system.c:1258
-msgid "Disconnect the charger to shut down."
-msgstr ""
-
-#: pebble/apps/system/settings/system.c:1292
+#: pebble/apps/system/settings/system.c:1276
 msgid "Do you want to shut down?"
 msgstr "Vols apagar?"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: pebble/apps/system/settings/system.c:1379
+#: pebble/apps/system/settings/system.c:1363
 #: pebble/apps/system/settings/vibe_patterns.c:72
 msgid "System"
 msgstr "Sistema"
