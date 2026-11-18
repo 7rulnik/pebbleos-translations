@@ -24,6 +24,7 @@
     {
       "name": "GOTHIC_18_BOLD_EXTENDED",
       "file": "4d3c70b8e6a6b1b9c74b61ec02892416c127033e2791ab41808b5fc65e71a261.ttf",
+      "pixelHeight": 17,
       "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
       "original_name": "SofiaSansCondensed-SemiBold.ttf",
@@ -32,6 +33,7 @@
     {
       "name": "GOTHIC_18_EXTENDED",
       "file": "11947b91dff4875107810f4a9c25f9cf49cf58cf0170d826e75cf06916395892.ttf",
+      "pixelHeight": 17,
       "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
       "original_name": "SofiaSansCondensed-Light.ttf",
@@ -40,6 +42,7 @@
     {
       "name": "GOTHIC_24_BOLD_EXTENDED",
       "file": "4d3c70b8e6a6b1b9c74b61ec02892416c127033e2791ab41808b5fc65e71a261.ttf",
+      "pixelHeight": 22,
       "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
       "original_name": "SofiaSansCondensed-SemiBold.ttf",
@@ -48,6 +51,7 @@
     {
       "name": "GOTHIC_24_EXTENDED",
       "file": "11947b91dff4875107810f4a9c25f9cf49cf58cf0170d826e75cf06916395892.ttf",
+      "pixelHeight": 22,
       "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
       "original_name": "SofiaSansCondensed-Light.ttf",
@@ -72,6 +76,7 @@
     {
       "name": "GOTHIC_36_BOLD_EXTENDED",
       "file": "4d3c70b8e6a6b1b9c74b61ec02892416c127033e2791ab41808b5fc65e71a261.ttf",
+      "pixelHeight": 33,
       "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
       "original_name": "SofiaSansCondensed-SemiBold.ttf",
@@ -80,6 +85,7 @@
     {
       "name": "GOTHIC_36_EXTENDED",
       "file": "11947b91dff4875107810f4a9c25f9cf49cf58cf0170d826e75cf06916395892.ttf",
+      "pixelHeight": 34,
       "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
       "original_name": "SofiaSansCondensed-Light.ttf",
