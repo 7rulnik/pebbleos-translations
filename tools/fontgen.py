@@ -10,6 +10,8 @@ import re
 import struct
 
 import freetype
+from fontTools import unicodedata
+from fontTools.ttLib import TTFont, TTLibError
 
 MIN_CODEPOINT = 0x20
 MAX_2_BYTES_CODEPOINT = 0xFFFF
@@ -23,6 +25,97 @@ HASH_TABLE_SIZE = 255
 OFFSET_TABLE_MAX_SIZE = 128
 MAX_GLYPHS_EXTENDED = HASH_TABLE_SIZE * OFFSET_TABLE_MAX_SIZE
 MAX_GLYPHS = 256
+
+# OpenType language system tags for languages whose letterforms fonts commonly
+# switch with the locl feature, such as Russian rather than Bulgarian Cyrillic.
+# https://learn.microsoft.com/typography/opentype/spec/languagetags
+OPENTYPE_LANGUAGES = {
+    "az": "AZE",
+    "ba": "BSH",
+    "be": "BEL",
+    "bg": "BGR",
+    "crh": "CRT",
+    "cv": "CHU",
+    "ja": "JAN",
+    "kk": "KAZ",
+    "ko": "KOR",
+    "ky": "KIR",
+    "mk": "MKD",
+    "mn": "MNG",
+    "mo": "MOL",
+    "pl": "PLK",
+    "ro": "ROM",
+    "ru": "RUS",
+    "sr": "SRB",
+    "tg": "TAJ",
+    "tr": "TRK",
+    "tt": "TAT",
+    "uk": "UKR",
+    "ur": "URD",
+}
+
+
+def opentype_language(language):
+    """OpenType language system tag for a locale such as ru, bg_BG or zh_Hant."""
+    subtags = re.split(r"[-_.@]", (language or "").lower())
+    if subtags[0] == "zh":
+        if {"hk", "mo"} & set(subtags):
+            return "ZHH"
+        return "ZHT" if {"hant", "tw"} & set(subtags) else "ZHS"
+    return OPENTYPE_LANGUAGES.get(subtags[0])
+
+
+def single_substitutions(lookup):
+    """Glyph name mapping of a GSUB lookup's single substitutions."""
+    mapping = {}
+    for subtable in lookup.SubTable:
+        if lookup.LookupType == 7:
+            subtable = subtable.ExtSubTable
+        if subtable.LookupType == 1:
+            # The first subtable that covers a glyph applies.
+            for glyph, substitute in subtable.mapping.items():
+                mapping.setdefault(glyph, substitute)
+    return mapping
+
+
+def locl_substitutions(font, tag):
+    """Glyph IDs that a TTFont's locl feature substitutes, by codepoint."""
+    gsub = font["GSUB"].table if "GSUB" in font else None
+    if gsub is None or not gsub.ScriptList or not gsub.FeatureList:
+        return {}
+    features = gsub.FeatureList.FeatureRecord
+    lookups_by_script = {}
+    for script in gsub.ScriptList.ScriptRecord:
+        for language_system in script.Script.LangSysRecord:
+            if language_system.LangSysTag.strip() != tag:
+                continue
+            indices = sorted(
+                {
+                    index
+                    for feature in language_system.LangSys.FeatureIndex
+                    if features[feature].FeatureTag == "locl"
+                    for index in features[feature].Feature.LookupListIndex
+                }
+            )
+            lookups_by_script[script.ScriptTag] = [
+                single_substitutions(gsub.LookupList.Lookup[index]) for index in indices
+            ]
+    if not any(lookups_by_script.values()):
+        return {}
+    substitutions = {}
+    for codepoint, glyph in font.getBestCmap().items():
+        script_tags = unicodedata.ot_tags_from_script(
+            unicodedata.script(chr(codepoint))
+        )
+        lookups = next(
+            (lookups_by_script[t] for t in script_tags if t in lookups_by_script), []
+        )
+        substitute = glyph
+        for lookup in lookups:
+            substitute = lookup.get(substitute, substitute)
+        if substitute != glyph:
+            substitutions[codepoint] = font.getGlyphID(substitute)
+    return substitutions
 
 
 def grouper(n, iterable, fillvalue=None):
@@ -63,6 +156,24 @@ class Font:
         self.offset_size_bytes = 4
         self.features = 0
         self.glyph_header = "<BBbbb"
+        self.glyph_substitutions = {}
+
+    def set_language(self, language):
+        """Draw the glyphs the font's locl feature selects for language.
+
+        Text is not shaped on the watch, so each codepoint keeps one glyph. Without
+        this, fonts whose default forms belong to another language, such as Sofia
+        Sans with Bulgarian Cyrillic, would draw those forms for every language.
+        """
+        tag = opentype_language(language)
+        if tag is None:
+            return
+        with open(self.ttf_path, "rb") as file:
+            try:
+                font = TTFont(file, lazy=True)
+            except TTLibError:
+                return  # Not an OpenType font, e.g. BDF
+            self.glyph_substitutions = locl_substitutions(font, tag)
 
     def set_compression(self, engine):
         if engine != "RLE4":
@@ -242,7 +353,11 @@ class Font:
             if codepoint == WILDCARD_CODEPOINT:
                 raise ValueError("Font uses the reserved wildcard codepoint")
             if codepoint_is_in_subset(codepoint):
-                offset, next_offset = add_glyph(codepoint, next_offset, gindex)
+                offset, next_offset = add_glyph(
+                    codepoint,
+                    next_offset,
+                    self.glyph_substitutions.get(codepoint, gindex),
+                )
                 glyph_entries.append((codepoint, offset))
             codepoint, gindex = self.face.get_next_char(codepoint, gindex)
 
