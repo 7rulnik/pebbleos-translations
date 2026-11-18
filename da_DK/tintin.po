@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-11-14 10:26+0000\n"
+"PO-Revision-Date: 2026-11-18 12:11+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -1790,16 +1790,16 @@ msgstr "Bevægelsesfølsomhed"
 
 #: pebble/apps/system/settings/system.c:484
 msgid "Kraepelin"
-msgstr ""
+msgstr "Kraepelin"
 
 #: pebble/apps/system/settings/system.c:485
 msgid "van Hees"
-msgstr ""
+msgstr "van Hees"
 
 #: pebble/apps/system/settings/system.c:500
 #: pebble/apps/system/settings/system.c:530
 msgid "Sleep Algorithm"
-msgstr ""
+msgstr "Algoritme for søvn"
 
 #: pebble/apps/system/settings/system.c:522
 msgid "CoreDump now"
