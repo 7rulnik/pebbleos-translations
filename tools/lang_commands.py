@@ -70,7 +70,9 @@ def configure_font(source, entry, codepoints):
     if character_list is not None:
         font.set_codepoint_list(source / character_list)
     if codepoints is not None:
-        requirements = set(json.loads(Path(codepoints).read_text())["codepoints"])
+        requirements = json.loads(Path(codepoints).read_text())
+        font.set_language(requirements.get("language"))
+        requirements = set(requirements["codepoints"])
         # Keep explicit legacy additions, but never let a hand-written subset exclude requirements.
         if character_list is not None:
             requirements.update(font.codepoints)

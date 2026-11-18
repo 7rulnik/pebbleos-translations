@@ -16,6 +16,7 @@ from unittest.mock import call, patch
 
 import lang_commands as commands
 import polib
+from fontgen import MAX_GLYPHS_EXTENDED, Font, opentype_language
 from pack_format import FONT_SLOTS, crc32, serialize
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -274,6 +275,49 @@ class LanguageTest(unittest.TestCase):
         data = commands.build_font(ROOT / "en_IL", entry, None)
         self.assertEqual(data[0], 3)
         self.assertTrue(data[9] & 2)
+
+    def test_fonts_draw_the_language_forms(self):
+        entry = next(
+            entry
+            for entry in json.loads((ROOT / "ru_RU/lang_map.json").read_text())["fonts"]
+            if entry["name"] == "GOTHIC_24_BOLD_EXTENDED"
+        )
+        fonts = {}
+        with tempfile.TemporaryDirectory() as directory:
+            for language in ("ru", "bg"):
+                codepoints = Path(directory) / f"{language}.json"
+                codepoints.write_text(
+                    json.dumps({"language": language, "codepoints": [0x434]})
+                )
+                font = commands.configure_font(ROOT / "ru_RU", entry, codepoints)
+                fonts[language] = (
+                    font.glyph_substitutions,
+                    commands.build_font(ROOT / "ru_RU", entry, codepoints, font=font),
+                )
+        # Sofia Sans draws Bulgarian д by default and Russian д through locl.
+        self.assertEqual(fonts["bg"][0], {})
+        self.assertIn(0x434, fonts["ru"][0])
+        self.assertNotEqual(fonts["ru"][1], fonts["bg"][1])
+
+    def test_language_forms_skip_fonts_without_opentype_tables(self):
+        font = Font(
+            str(ROOT / "zh_CN/fireflyR14.bdf"), 14, MAX_GLYPHS_EXTENDED, 256, False
+        )
+        font.set_language("zh_CN")
+        self.assertEqual(font.glyph_substitutions, {})
+
+    def test_opentype_language_tags(self):
+        for language, tag in {
+            "ru": "RUS",
+            "bg_BG": "BGR",
+            "sr@latin": "SRB",
+            "zh_CN": "ZHS",
+            "zh_Hant": "ZHT",
+            "zh_HK": "ZHH",
+            "en_IL": None,
+            None: None,
+        }.items():
+            self.assertEqual(opentype_language(language), tag, language)
 
     def test_missing_font_has_actionable_error(self):
         entry = {"name": FONT_SLOTS[0], "file": "does-not-exist.ttf"}
